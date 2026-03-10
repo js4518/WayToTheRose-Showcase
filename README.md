@@ -90,10 +90,11 @@
 
 - 커스터마이즈한 에디터의 기능을 통해 **스프레드시트에서 테이블(CSV)을 다운로드** <br>
 
-<img src="https://github.com/user-attachments/assets/21813579-8020-4a6c-957c-9203dd8fed26" width="65%">
+<img src="https://github.com/user-attachments/assets/599c9299-84f8-4e23-9154-676f39f14b6b" width="65%">
 <img src="https://github.com/user-attachments/assets/9265a625-53fe-4f67-962f-e65ebc7430e3" width="30%">
 
-- **다운로드받은 테이블을 CsvHelper를 통해 파싱**하여 **EnemyData SO를 생성** <br>
+- **다운로드받은 테이블을 CsvHelper를 통해** EnemyTable 클래스의 형태대로 **파싱**
+- 이후 **파싱한 정보**(EnemyTable)을 **기반**으로 **EnemyData SO를 생성** <br>
 
 <img src="https://github.com/user-attachments/assets/c65f5718-d80c-4777-9c4b-084702bca68a" width="30%">
 <img src="https://github.com/user-attachments/assets/82713ff7-5a45-43fc-98fb-68b5abedfcc5" width="40%"> <br>
@@ -101,19 +102,6 @@
 <img src="https://github.com/user-attachments/assets/0563dd5e-d84b-4a8a-8f91-9148c25d482b" width="40%">
 
 - 테이블 데이터에 따라 자동으로 생성된 EnemyData SO -> 에너미 생성시 **해당 데이터들을 이용하여 수치 초기화** <br> <br> <br>
-
-
-
-
-## 🔹 오브젝트 (제단 등)
-
-
-
-
-
-
-
-
 
 
 

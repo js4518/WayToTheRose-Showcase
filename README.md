@@ -41,7 +41,7 @@
 
 - 커스터마이즈한 에디터의 기능을 통해, 청크 프리팹 내 **타일/오브젝트 배치 등의 정보를 담은 ChunkData SO를 생성** <br>
 
-<img src="https://github.com/user-attachments/assets/4b2c0d7a-f31b-4238-a292-8c92ae2f94e2" width="45%">
+<img src="https://github.com/user-attachments/assets/ca28f514-f3c1-4de2-8392-a49d3cd1ebb6" width="45%">
 <img src="https://github.com/user-attachments/assets/b8688163-75fb-4248-9bfb-1ca7caf62413" width="50%">
 
 - 스테이지 생성 중 청크를 배치할 때, **ChunkData SO에 담긴 정보에 따라 실제 씬의 타일맵에 타일 배치 / 오브젝트 배치**
@@ -49,7 +49,7 @@
 
 ### 🔹 **청크 내 구조물/오브젝트 랜덤 배치**
 
-<img src="https://github.com/user-attachments/assets/e11a00b7-27a6-4d0c-9523-2037fd023661" width="35%">
+<img src="https://github.com/user-attachments/assets/a3f9d4b3-fbb3-45d5-a6fb-dd7e84e36bfa" width="35%">
 <img src="https://github.com/user-attachments/assets/f5de2074-c684-438e-8f75-d64bf7d5252a" width="60%">
 
 - 청크 자체의 타일 및 오브젝트 배치 후 **남은 가용 공간에 구조물/오브젝트를 랜덤 배치**
@@ -66,7 +66,7 @@
 - 에너미가 가지는 **스테이트의 기반 구조**를, ScriptableObject를 상속하는 추상 클래스 EnemyState로 정의
 - **스테이트 진입/유지/탈출** 시점에 동작할 함수를 선언 <br>
 
-<img src="https://github.com/user-attachments/assets/24dec04e-9a71-4a7f-b3ab-2af787502960" width="50%">
+<img src="https://github.com/user-attachments/assets/b4d2fbb1-4bb6-4e04-9b04-6aa5b0c3693a" width="40%">
 
 - **각 에너미 별로 사용할 스테이트**를, EnemyState 클래스를 상속한 **개별 클래스로 정의**
 - 각 스테이트에서 **어떤 행동을 할지** / **어떤 조건이 충족되면 다른 스테이트로 전환할지 정의**<br>
@@ -75,7 +75,7 @@
 
 - 각 스테이트 클래스의 SO를 에너미의 데이터에 등록하여, **에너미가 사용할 스테이트를 직관적으로 설정** <br>
 
-<img src="https://github.com/user-attachments/assets/3541eb77-6468-4f73-9d5d-96b59d48cea3" width="50%">
+<img src="https://github.com/user-attachments/assets/8d3aa232-6364-4c04-a444-6a894e318559" width="50%">
 
 - 게임 내 상황에 따라 **에너미의 스테이트를 전환** (기존 스테이트의 탈출 -> 새로운 스테이트로 진입) <br>  <br>
 
@@ -86,7 +86,7 @@
 - **에너미의 수치적 데이터를** 구글 스프레드시트에서 **테이블(CSV)로 관리**
 - 기획자가 게임 내 코드/로직에 직접 접근하지 않고 수치 수정 가능<br>
 
-<img src="https://github.com/user-attachments/assets/03e49f06-fe12-4efd-a5c3-ec13c0abf3c3" width="60%">
+<img src="https://github.com/user-attachments/assets/a51e9aa1-9eca-4da7-a98a-f3a851084bc4" width="60%">
 
 - 커스터마이즈한 에디터의 기능을 통해 **스프레드시트에서 테이블(CSV)을 다운로드** <br>
 

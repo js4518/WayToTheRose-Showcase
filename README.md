@@ -21,23 +21,23 @@
 
 ### 🔹 **청크 단위 스테이지 구성**
 
-<img src="https://github.com/user-attachments/assets/464546f2-179c-4b5c-8bea-578e3139cd5c" width="35%">
-<img src="https://github.com/user-attachments/assets/2fc9ff04-5fe8-43b0-a8a0-548a7edb03dc" width="35%">
+<img src="https://github.com/user-attachments/assets/464546f2-179c-4b5c-8bea-578e3139cd5c" width="45%">
+<img src="https://github.com/user-attachments/assets/2fc9ff04-5fe8-43b0-a8a0-548a7edb03dc" width="45%">
 
 - 지정된 스테이지 구조에 따라 50*50 크기의 **청크들을 종류(일반/제단/보스 청크)별로 랜덤 배치하여 스테이지 구성** <br>
 
 ### 🔹 **프리팹 기반 청크 구성**
 
 <img src="https://github.com/user-attachments/assets/e64c3e31-f39a-4aea-9986-2c3d31977fd9" width="60%">
-<img src="https://github.com/user-attachments/assets/fe3bc01c-c390-4a22-97d2-931ec1c024f4" width="30%">
+<img src="https://github.com/user-attachments/assets/fe3bc01c-c390-4a22-97d2-931ec1c024f4" width="38%">
 
 - **각 청크**를 **하나의 프리팹**으로 구성
 - **타일 기능별 타일맵 분리** / Dictionary로 Enum 값과 대응하여 코드에서 쉽게 접근 <br>
 
 ### 🔹 **청크 프리팹의 데이터화**
 
-<img src="https://github.com/user-attachments/assets/57fe7873-0e4d-4269-9554-8d3779830179" width="35%">
-<img src="https://github.com/user-attachments/assets/fbebc216-c37d-4155-a9a4-27943a67dffb" width="40%">
+<img src="https://github.com/user-attachments/assets/57fe7873-0e4d-4269-9554-8d3779830179" width="40%">
+<img src="https://github.com/user-attachments/assets/fbebc216-c37d-4155-a9a4-27943a67dffb" width="50%">
 
 - 커스터마이즈한 에디터의 기능을 통해, 청크 프리팹 내 **타일/오브젝트 배치 등의 정보를 담은 ChunkData SO를 생성** <br>
 
@@ -50,7 +50,7 @@
 ### 🔹 **청크 내 구조물/오브젝트 랜덤 배치**
 
 <img src="https://github.com/user-attachments/assets/e11a00b7-27a6-4d0c-9523-2037fd023661" width="35%">
-<img src="https://github.com/user-attachments/assets/f5de2074-c684-438e-8f75-d64bf7d5252a" width="55%">
+<img src="https://github.com/user-attachments/assets/f5de2074-c684-438e-8f75-d64bf7d5252a" width="60%">
 
 - 청크 자체의 타일 및 오브젝트 배치 후 **남은 가용 공간에 구조물/오브젝트를 랜덤 배치**
 - **구조물 또한** 청크와 동일하게 **프리팹을 기반으로 구성하고, 데이터화**하여 관리
